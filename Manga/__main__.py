@@ -11,6 +11,6 @@ caption = "Bot Awake 🌟"
 photo = "https://telegra.ph/file/dc59c2b7bdfc7132895f1.jpg"
 
 if __name__ == "__main__":
-    waifu.run()
-    with waifu:
-        waifu.send_photo(chat_id=-1001692098754, photo=photo, caption=caption, reply_markup=markup)
+    bot.run()
+    with bot:
+        bot.send_photo(chat_id=-1001692098754, photo=photo, caption=caption, reply_markup=markup)
